@@ -136,10 +136,34 @@ body {
   background-color: burlywood;
 }
 
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: lightblue;
+  border-bottom: 3px solid salmon;
+  z-index: 9999;
+}
+
 .conttainer {
   background-color: white;
   width: 960px;
-  margin: auto;
+  margin: 80px auto;
+  position: relative;
+}
+
+.twit {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url(reborn.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  position: absolute;
+  top: -3px;
+  right: -2px;
 }
 
 .header {
